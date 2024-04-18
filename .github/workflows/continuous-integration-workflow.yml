@@ -1,0 +1,7 @@
+name: Continuous Integration
+on: [push]                      
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest      
+    - uses: actions/checkout@v4 
